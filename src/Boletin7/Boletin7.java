@@ -19,19 +19,19 @@ public class Boletin7 {
         CuentaCorriente miCuenta = new CuentaCorriente(200);
         System.out.println("-------------------------------------------------------------------------");
         
-//        if(miCuenta.ingresarDinero(20)){
-//            System.out.println("Se puedo ingresar el dinero");
-//        } else {
-//            System.out.println("No se puedo ingresar el dinero");
-//        }
-//        
-//        System.out.println("-------------------------------------------------------------------------");
-//        
-//        if(miCuenta.sacarDinero(20)){
-//            System.out.println("Se puedo sacar el dinero");
-//        } else {
-//            System.out.println("No se puedo sacar el dinero");
-//        }
+        if(miCuenta.ingresarDinero(20)){
+            System.out.println("Se puedo ingresar el dinero");
+        } else {
+            System.out.println("No se puedo ingresar el dinero");
+        }
+        
+        System.out.println("-------------------------------------------------------------------------");
+        
+        if(miCuenta.sacarDinero(20)){
+            System.out.println("Se puedo sacar el dinero");
+        } else {
+            System.out.println("No se puedo sacar el dinero");
+        }
         
         System.out.println("-------------------------------------------------------------------------");
         System.out.println(miCuenta.toString());
